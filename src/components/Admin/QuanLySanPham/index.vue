@@ -1,0 +1,87 @@
+<template >
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header bg-info ">
+                        <h4 class="card-title text-white mt-2">Thêm nhà sản phẩm</h4>
+                    </div>
+                    <div class="card-body">
+
+                        <label for="tenNhaCungCap" class="form-label">Tên sản phẩm</label>
+                        <input type="text" class="form-control" placeholder="Nhập tên sản phẩm" id="tenNhaCungCap">
+                        <label for="slugNhaCungCap" class="mt-2 form-label">Danh mục</label>
+                        <select class="form-select">
+                            <option>Đồ uống</option>
+                            <option>Đồ ăn</option>
+                        </select>
+                        <label for="slugNhaCungCap" class="mt-2 form-label">Giá bán</label>
+                        <input type="text" class="form-control" placeholder="Nhập giá bán" id="slugNhaCungCap">
+                        <label for="slugNhaCungCap" class="mt-2 form-label">Kích thước</label>
+                        <input type="text" class="form-control" placeholder="Nhập kích thước(vừa,lớn,..)" id="slugNhaCungCap">
+                        <label for="slugNhaCungCap" class="mt-2 form-label">Mô tả</label>
+                        <textarea name="" id="" cols="10" rows="3" placeholder="Nhập mô tả" class="form-control"></textarea>
+                        <label for="" class="mt-2 form-label">Tình trạng</label>
+                        <select class="form-select">
+                            <option>Hoạt Động</option>
+                            <option>Ngừng Hoạt Động</option>
+                        </select>
+                        <div class="mb-3"></div>
+                    </div>
+                    <div class="card-footer d-flex">
+                        <button class="btn btn-primary text-white ms-auto">Thêm nhà cung cấp</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="card">
+                    <div class="card-header bg-info ">
+                        <div class="align-text-center justify-content-between text-nowrap d-flex">
+                            <h5 class="card-title text-white mt-2">Danh Sách Sản Phẩm</h5>
+                            <button class="btn btn-success">Xuất excel</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="container">
+                           <div class="table-reponsive">
+                                <table class="table table-striped table-bordered">
+                                    <thead class="bg-dark text-light">
+                                        <th class="text-center">#</th>
+                                        <th class="text-center">Tên Sản Phẩm</th>
+                                        <th class="text-center">Danh Mục</th>
+                                        <th class="text-center">Giá Bán</th>
+                                        <th class="text-center">Kích Thước</th>
+                                        <th class="text-center">Tình Trạng</th>
+                                        <th class="text-center">Hành Động</th>
+                                    </thead>
+                                    <tbody>
+                                        <td class="text-center">1</td>
+                                        <td class="text-center">Cà phê</td>
+                                        <td class="text-center">Đồ uống</td>
+                                        <td class="text-center">25000d</td>
+                                        <td class="text-center">Vừa</td>
+                                        <td class="text-center">
+                                            <button class="btn btn-success w-100">Hoạt Động</button>
+                                        </td>
+                                        <td class="text-center d-flex gap-2 justify-content-center">
+                                            <button class="btn btn-primary">Sửa</button>
+                                            <button class="btn btn-danger">Xóa</button>
+                                        </td>
+                                    </tbody>
+                                </table>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+export default {
+    
+}
+</script>
+<style >
+    
+</style>

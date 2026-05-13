@@ -37,15 +37,13 @@
 						</div>
 						<div class="menu-title">Quản lý tài khoản</div>
 					</a>
-					<ul class="dropdown-menu">		
-						<li> <a class="dropdown-item" href="#"><i
-									class="bx bx-right-arrow-alt"></i>Khách hàng</a>
+					<ul class="dropdown-menu">
+						<li> <a class="dropdown-item" href="#"><i class="bx bx-right-arrow-alt"></i>Khách hàng</a>
 						</li>
-						<li> <a class="dropdown-item" href="#"><i
-									class="bx bx-right-arrow-alt"></i>Nhân viên</a>
+						<li> <a class="dropdown-item" href="#"><i class="bx bx-right-arrow-alt"></i>Nhân viên</a>
 						</li>
 					</ul>
-				</li>	
+				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">
 						<div class="parent-icon"><i class="fa-regular fa-note-sticky"></i>
@@ -60,14 +58,34 @@
 						<div class="menu-title text-nowrap">Sản phẩm</div>
 					</a>
 				</li>
-				<li  class="nav-item">
+				<li class="nav-item">
 					<a href="/admin/quan-ly-chuc-vu" class="nav-link">
 						<div class="parent-icon"><i class="fa-regular fa-circle-user"></i>
 						</div>
 						<div class="menu-title">Quản lý chức vụ</div>
 					</a>
-					
-				</li>	
+
+				</li>
+				<li class="nav-item dropdown">
+					<a href="javascript:;" class="nav-link dropdown-toggle dropdown-toggle-nocaret"
+						data-bs-toggle="dropdown">
+						<div class="parent-icon"><i class="fa-regular fa-circle-user"></i></div>
+						<div class="menu-title">Quản lý sản phẩm</div>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="/admin/khach-hang"><i class="bx bx-right-arrow-alt"></i>Khách hàng</a></li>
+						<li><a class="dropdown-item" href="/admin/quan-ly-san-pham"><i class="bx bx-right-arrow-alt"></i>Sản Phẩm</a></li>
+						<li><a class="dropdown-item" href="/admin/nha-cung-cap"><i class="bx bx-right-arrow-alt"></i>Nhà
+								cung cấp</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/admin/khu-vuc">
+						<div class="parent-icon"><i class="fa-regular fa-note-sticky"></i>
+						</div>
+						<div class="menu-title text-nowrap">Khu vực</div>
+					</a>
+				</li>
 			</ul>
 		</nav>
 	</div>
