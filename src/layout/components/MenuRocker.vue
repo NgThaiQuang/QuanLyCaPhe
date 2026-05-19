@@ -38,10 +38,9 @@
 						<div class="menu-title">Quản lý tài khoản</div>
 					</a>
 					<ul class="dropdown-menu">
-						<li> <a class="dropdown-item" href="#"><i class="bx bx-right-arrow-alt"></i>Khách hàng</a>
-						</li>
-						<li> <a class="dropdown-item" href="#"><i class="bx bx-right-arrow-alt"></i>Nhân viên</a>
-						</li>
+						<li><a class="dropdown-item" href="/admin/khach-hang"><i class="bx bx-right-arrow-alt"></i>Khách hàng</a></li>
+						<li><a class="dropdown-item" href="/admin/quan-ly-san-pham"><i class="bx bx-right-arrow-alt"></i>Sản Phẩm</a></li>
+					
 					</ul>
 				</li>
 				<li class="nav-item">
@@ -73,10 +72,10 @@
 						<div class="menu-title">Quản lý sản phẩm</div>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/admin/khach-hang"><i class="bx bx-right-arrow-alt"></i>Khách hàng</a></li>
-						<li><a class="dropdown-item" href="/admin/quan-ly-san-pham"><i class="bx bx-right-arrow-alt"></i>Sản Phẩm</a></li>
+						
 						<li><a class="dropdown-item" href="/admin/nha-cung-cap"><i class="bx bx-right-arrow-alt"></i>Nhà
 								cung cấp</a></li>
+						<li><a class="dropdown-item" href="/admin/quan-ly-danh-muc"><i class="bx bx-right-arrow-alt"></i>Danh mục</a></li>
 					</ul>
 				</li>
 				<li class="nav-item">

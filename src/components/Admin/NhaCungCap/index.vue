@@ -73,7 +73,21 @@
 </template>
 <script>
 export default {
-    
+    data(){
+        return {
+            list:[],
+            listPhu:{
+
+            },
+            tuKhoa:'',
+        }
+    },
+    mounted(){
+        this.loadData();
+    },
+    methods:{
+
+    }
 }
 </script>
 <style >

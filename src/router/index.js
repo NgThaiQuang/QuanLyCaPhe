@@ -21,6 +21,10 @@ const routes = [
         path : '/admin/khu-vuc',
         component: ()=>import('../components/Admin/KhuVuc/index.vue')
     },
+    {
+        path : '/admin/quan-ly-danh-muc',
+        component: ()=>import('../components/Admin/DanhMuc/index.vue')
+    },
 ]
 
 const router = createRouter({
