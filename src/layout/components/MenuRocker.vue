@@ -43,32 +43,23 @@
 					
 					</ul>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">
-						<div class="parent-icon"><i class="fa-regular fa-note-sticky"></i>
+				<li class="nav-item dropdown">
+					<a href="javascript:;" class="nav-link dropdown-toggle dropdown-toggle-nocaret"
+						data-bs-toggle="dropdown">
+						<div class="parent-icon"><i class="fa-solid fa-table"></i>
 						</div>
-						<div class="menu-title text-nowrap">Hóa đơn</div>
+						<div class="menu-title">Quản lý bàn</div>
 					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">
-						<div class="parent-icon"><i class="fa-regular fa-truck"></i>
-						</div>
-						<div class="menu-title text-nowrap">Sản phẩm</div>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a href="/admin/quan-ly-chuc-vu" class="nav-link">
-						<div class="parent-icon"><i class="fa-regular fa-circle-user"></i>
-						</div>
-						<div class="menu-title">Quản lý chức vụ</div>
-					</a>
-
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="/admin/khach-hang"><i class="bx bx-right-arrow-alt"></i>Bàn</a></li>
+						<li><a class="dropdown-item" href="/admin/quan-ly-san-pham"><i class="bx bx-right-arrow-alt"></i>Khu vực bàn</a></li>
+					
+					</ul>
 				</li>
 				<li class="nav-item dropdown">
 					<a href="javascript:;" class="nav-link dropdown-toggle dropdown-toggle-nocaret"
 						data-bs-toggle="dropdown">
-						<div class="parent-icon"><i class="fa-regular fa-circle-user"></i></div>
+						<div class="parent-icon"><i class="fa-solid fa-box"></i></div>
 						<div class="menu-title">Quản lý sản phẩm</div>
 					</a>
 					<ul class="dropdown-menu">
@@ -79,10 +70,41 @@
 					</ul>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/admin/khu-vuc">
-						<div class="parent-icon"><i class="fa-regular fa-note-sticky"></i>
+					<a href="/admin/quan-ly-chuc-vu" class="nav-link">
+						<div class="parent-icon"><i class="fa-solid fa-briefcase"></i>
 						</div>
-						<div class="menu-title text-nowrap">Khu vực</div>
+						<div class="menu-title text-nowrap">Quản lý ca làm</div>
+					</a>
+
+				</li>
+				<li class="nav-item">
+					<a href="/admin/quan-ly-chuc-vu" class="nav-link">
+						<div class="parent-icon"><i class="fa-solid fa-desktop"></i>
+						</div>
+						<div class="menu-title text-nowrap">Quản lý chức vụ</div>
+					</a>
+
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="/admin/khu-vuc">
+						<div class="parent-icon"><i class="fa-solid fa-receipt"></i>
+						</div>
+						<div class="menu-title text-nowrap">Hóa đơn</div>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/admin/khu-vuc">
+						<div class="parent-icon"><i class="fa-solid fa-ticket"></i>
+						</div>
+						<div class="menu-title text-nowrap">Voucher</div>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/admin/khu-vuc">
+						<div class="parent-icon"><i class="fa-solid fa-ticket-simple"></i>
+						</div>
+						<div class="menu-title text-nowrap">Phiếu nhập kho</div>
 					</a>
 				</li>
 			</ul>
