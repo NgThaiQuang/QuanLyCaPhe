@@ -20,15 +20,15 @@
                         </div>
                         <div class="container">
                             <div class="table-responsive">
-                                <table class="table table-striped table-bordered">
-                                    <thead class="bg-dark text-light">
-                                        <th class="text-center">#</th>
-                                        <th class="text-center">Tên Khách Hàng</th>
-                                        <th class="text-center">Email</th>
-                                        <th class="text-center">Số Điện Thoại</th>
-                                        <th class="text-center">Tình Trạng</th>
-                                        <th class="text-center">Kích hoạt</th>
-                                        <th class="text-center">Hành Động</th>
+                                <table class="table table-striped table-bordered align-middle">
+                                    <thead class="bg-dark text-light ">
+                                        <th class="text-center py-2">#</th>
+                                        <th class="text-center py-2">Tên Khách Hàng</th>
+                                        <th class="text-center py-2">Email</th>
+                                        <th class="text-center py-2">Số Điện Thoại</th>
+                                        <th class="text-center py-2">Tình Trạng</th>
+                                        <th class="text-center py-2">Kích hoạt</th>
+                                        <th class="text-center py-2">Hành Động</th>
                                     </thead>
                                     <tbody>
                                         <tr v-for="(value, index) in locDanhSach()" :key="index">
