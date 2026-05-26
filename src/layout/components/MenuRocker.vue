@@ -39,7 +39,7 @@
 					</a>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="/admin/khach-hang"><i class="bx bx-right-arrow-alt"></i>Khách hàng</a></li>
-						
+						<li><a class="dropdown-item" href="/admin/nhan-vien"><i class="bx bx-right-arrow-alt"></i>Nhân viên</a></li>
 					
 					</ul>
 				</li>
@@ -67,15 +67,21 @@
 						<li><a class="dropdown-item" href="/admin/nha-cung-cap"><i class="bx bx-right-arrow-alt"></i>Nhà cung cấp</a></li>
 						<li><a class="dropdown-item" href="/admin/quan-ly-danh-muc"><i class="bx bx-right-arrow-alt"></i>Danh mục</a></li>
 						<li><a class="dropdown-item" href="/admin/cong-thuc-mon"><i class="bx bx-right-arrow-alt"></i>Công thức món</a></li>
+						<li><a class="dropdown-item" href="/admin/nguyen-lieu"><i class="bx bx-right-arrow-alt"></i>Nguyên liệu</a></li>
 					</ul>
 				</li>
-				<li class="nav-item">
-					<a href="/admin/quan-ly-chuc-vu" class="nav-link">
+				<li class="nav-item dropdown">
+					<a href="javascript:;" class="nav-link dropdown-toggle dropdown-toggle-nocaret"
+						data-bs-toggle="dropdown">
 						<div class="parent-icon"><i class="fa-solid fa-briefcase"></i>
 						</div>
 						<div class="menu-title text-nowrap">Quản lý ca làm</div>
 					</a>
-
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="/admin/ca-lam-viec"><i class="bx bx-right-arrow-alt"></i>Ca Làm Việc</a></li>
+						<li><a class="dropdown-item" href="/admin/phan-cong-ca-lam"><i class="bx bx-right-arrow-alt"></i>Phân Công Ca Làm</a></li>
+						
+					</ul>
 				</li>
 				<li class="nav-item">
 					<a href="/admin/quan-ly-chuc-vu" class="nav-link">
@@ -87,21 +93,21 @@
 				</li>
 				
 				<li class="nav-item">
-					<a class="nav-link" href="/admin/khu-vuc">
+					<a class="nav-link" href="/admin/hoa-don">
 						<div class="parent-icon"><i class="fa-solid fa-receipt"></i>
 						</div>
 						<div class="menu-title text-nowrap">Hóa đơn</div>
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/admin/khu-vuc">
+					<a class="nav-link" href="/admin/voucher">
 						<div class="parent-icon"><i class="fa-solid fa-ticket"></i>
 						</div>
 						<div class="menu-title text-nowrap">Voucher</div>
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/admin/khu-vuc">
+					<a class="nav-link" href="/admin/phieu-nhap-kho">
 						<div class="parent-icon"><i class="fa-solid fa-ticket-simple"></i>
 						</div>
 						<div class="menu-title text-nowrap">Phiếu nhập kho</div>
